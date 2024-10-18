@@ -137,13 +137,3 @@ function displayEvents(events, selectedDay = '', selectedTime = '') {
 
 displayEvents(events);
 
-
-function showfooter() {
-  let footer = document.getElementsByTagName("footer")[0];
-  footer.classList.add("footerVisible");
-};
-
-function hidefooter(){
-  let footer = document.getElementsByTagName("footer")[0];
-  footer.classList.remove("footerVisible");
-};
